@@ -32,6 +32,8 @@ a {
     color: white;
 }
 
+/* Birthday girl section styling*/
+
 #bff-img {
     width: 150px;
     border-radius: 50%;
@@ -53,6 +55,8 @@ a {
     border-radius: 5px;
 }
 
+/* Gift styling */
+
 .gift-section {
     margin-top: 50px;
 }
@@ -65,10 +69,6 @@ a {
     margin-top: 0;
 }
 
-#gift-img-cheers {
-    height: 200px;
-}
-
 .gift-img {
     margin: 20px auto;
     max-width: 400px;
@@ -78,6 +78,12 @@ a {
     background-image: url("images/gift-cover.jpg");
     background-size: cover;
 }
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+/* Hover Images */
 
 #gift-img-happy:hover {
     background-image: url("images/happy.gif");
