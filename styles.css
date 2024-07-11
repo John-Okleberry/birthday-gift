@@ -1,15 +1,15 @@
 
 /*
-    A quick search reveleated that one of Sophia Vargara's favorite colors is Magnetic Mauve
-    https://media.ulta.com/i/ulta/2503051?w=1080&h=1080&fmt=auto
-    Used this tool to convert an image to rgba values:
-    https://isotropic.co/tool/image-to-css-converter/
-    Converted the rgba value to hex using the following:
-    https://rgbacolorpicker.com/rgba-to-hex
+    A Birthday Gift Website for my wife Miranda
     
-    
+    Her favorite colors are mint and pink so I used them as the background gradient but I had hoped that the coloring turned out better- With more time, this is something that I would fix
  */
 
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 body {
     text-align: center;
@@ -18,8 +18,18 @@ body {
     color: #ffffff;
 }
 
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
 h1, h2, h3, h4, p {
     text-shadow: 0 0 1px black;
+}
+
+a {
+    color: white;
 }
 
 #bff-img {
@@ -41,12 +51,6 @@ h1, h2, h3, h4, p {
     background: #EFB0C9;
     padding: 5px 10px;
     border-radius: 5px;
-}
-
-#header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .gift-section {
@@ -87,10 +91,6 @@ h1, h2, h3, h4, p {
     background-image: url("images/genius.gif");
 }
 
-#gift-img-badass:hover {
-    background-image: url("images/badass.gif");
-}
-
 #gift-img-cheers:hover {
     background-image: url("images/cheers.gif");
 }
@@ -106,7 +106,6 @@ h1, h2, h3, h4, p {
 #gift-img-tough:hover {
     background-image: url("/images/tough.jpg");
 }
-
 
 #gift-img-fierce:hover {
     background-image: url("/images/fierce.jpg");
@@ -131,27 +130,3 @@ h1, h2, h3, h4, p {
 #gift-img-crossing-bridges:hover {
     background-image: url("/images/crossing-bridges.jpg");
 }
-
-
-
-#footer {
-    font-style: italic;
-    width: 400px;
-    margin: 40px auto 20px;
-}
-
-a {
-    color: white;
-}
-
-/* 
-Add the footer paragraph according to the design. 
-Configure the anchor tag to open the link in a new tab.
-Forgotten how to do it? Google it! 
-
-Link: 
-https://scrimba.com/learn/htmlandcss
-
-Text:
-Want to create your own Birthday GIFt site? Take this HTML & CSS course.
-*/
